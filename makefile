@@ -13,4 +13,4 @@ $(BIN)/Driver.class: $(JAVA_FILES)
 	$(JC) Driver.java DrawPanel.java -d $(BIN)
 
 clean:
-	$(RM) bin/*.class
+	rm -f bin/*.class
